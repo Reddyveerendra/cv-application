@@ -1,5 +1,17 @@
+* {
+  margin: 0%;
+  font-style: Calibri;
+  font-size: 18px;
+}
 .App {
   text-align: center;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
 }
 
 .App-logo {
@@ -28,11 +40,73 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 650;
+  font-style: Garamond;
+}
+.header .other {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  font-size: 12px;
+}
+input {
+  border: 0;
+  width: 110px;
+  padding: auto;
+}
+.sideHeading {
+  font-weight: 700;
+  text-align: left;
+}
+.college {
+  display: flex;
+  text-align: left;
+  padding-left: 1%;
+}
+.duration {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.sideHeading2 {
+  font-weight: 500;
+}
+.Projects {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Skills {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.experience {
+  text-align: left;
+  display: flex;
+  gap: 5px;
+}
+.experience .duration {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.LiveResume {
+  border: 4px solid #282c34;
+  padding: 2%;
 }
