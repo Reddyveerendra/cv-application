@@ -1,19 +1,25 @@
 export let LiveResume = (props) => {
     return (
         <div className="LiveResume">
-            <div className="header">
-                <div className="name">
-                    <p>{props.FirstName}</p>
-                    <p>{props.SecondName}</p>
+            <div className="head">
+                <div className="header">
+                    <div className="name">
+                        <p>{props.FirstName}</p>
+                        <p>{props.SecondName}</p>
+                    </div>
+                    <div className="other">
+                        <p>{props.Mail}</p>
+                        <hr />
+                        <p>{props.PhoneNumber}</p>
+                        <hr />
+                        <p>{props.Place}</p>
+                    </div>
                 </div>
-                <div className="other">
-                    <p>{props.Mail}</p>
-                    <hr />
-                    <p>{props.PhoneNumber}</p>
-                    <hr />
-                    <p>{props.Place}</p>
+                <div className="image">
+                    <img src={props.img} alt="ProfileImage" />
                 </div>
             </div>
+
             <div className="education">
                 <p className="sideHeading">EDUCATION</p>
                 <hr />

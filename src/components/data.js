@@ -24,5 +24,6 @@ export let data = {
     Role: "Position/Role",
     CompanyPoint1: "About your work in company",
     CompanyPoint2: "About your work in company",
-    CompanyDuration: "Start-End"
+    CompanyDuration: "Start-End",
+    img: ""
 }
